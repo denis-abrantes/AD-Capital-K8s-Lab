@@ -3,6 +3,6 @@ type: APPLICATION_MANIFEST
 gitFileConfig:
   branch: prod-capital
   connectorName: SE-Days-AD-Capital-K8S-Lab
-  filePath: Rookout
+  filePath: Rookout/portal-deployment.yaml
   useBranch: true
 storeType: Remote
