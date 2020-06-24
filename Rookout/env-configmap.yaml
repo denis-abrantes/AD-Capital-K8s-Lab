@@ -2,22 +2,22 @@
 apiVersion: v1
 data:
   APPD_DIR: /appdynamics
-  APPD_ES_HOST: "<events-service-url>"
+  APPD_ES_HOST: "http://denisdcontrollereum-20-rs5dpj9m.appd-cx.com"
   APPD_ES_PORT: "9080"
   APPD_ES_SSL: "false"
-  APPD_EVENT_ACCOUNT_NAME: "<your-global-account-name>"
-  APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: "<controller-access-key>"
-  APPDYNAMICS_AGENT_ACCOUNT_NAME: <controller-customer-name>
-  APPDYNAMICS_AGENT_APPLICATION_NAME: "<your-application-name>"
-  APPDYNAMICS_CONTROLLER_HOST_NAME: "<controller-host>"
+  APPD_EVENT_ACCOUNT_NAME: "customer1_9d79d0f4-41ca-4e53-9728-931b490fa516"
+  APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: "b82d7db5-444f-4aae-9eb1-5f9c8edf4497"
+  APPDYNAMICS_AGENT_ACCOUNT_NAME: "customer1"
+  APPDYNAMICS_AGENT_APPLICATION_NAME: "AD-Capital-SE-Days-2"
+  APPDYNAMICS_CONTROLLER_HOST_NAME: "denisdcontrollereum-20-rs5dpj9m.appd-cx.com"
   APPDYNAMICS_CONTROLLER_PORT: "8090"
   APPDYNAMICS_CONTROLLER_SSL_ENABLED: "False"
   APPDYNAMICS_NETVIZ_AGENT_PORT: "3892"
-  ROOKOUT_LABELS: "env:<rookout-label>"
+  ROOKOUT_LABELS: "env:denisd-se-days"
   ROOKOUT_LOG_TO_STDERR: "True"
   ROOKOUT_DEBUG: "1"
   ROOKOUT_COMMIT: "True"
-  ROOKOUT_TOKEN: "<rookout-token>"
+  ROOKOUT_TOKEN: "1e621051e61fdbdfdb6bc30784ad654038605ff79578949fc36e1d9d7cb3696f"
   RETRY: 10s
   TIMEOUT: 300s
 kind: ConfigMap
