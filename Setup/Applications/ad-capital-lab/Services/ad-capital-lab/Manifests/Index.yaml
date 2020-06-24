@@ -1,3 +1,8 @@
 harnessApiVersion: '1.0'
 type: APPLICATION_MANIFEST
-storeType: Local
+gitFileConfig:
+  branch: prod-capital
+  connectorName: SE-Days-AD-Capital-K8S-Lab
+  filePath: Rookout
+  useBranch: true
+storeType: Remote
